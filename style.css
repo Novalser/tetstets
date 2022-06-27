@@ -1,8 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Bad+Script&family=Cormorant:wght@400;700&family=Herr+Von+Muellerhoff&display=swap');
 @font-face {
     font-family: "Nueva";
-    src: url("font/Miama\ Nueva.ttf")
-           
+    src: url("font/Miama\ Nueva.ttf") 
    }
 
 *{
@@ -15,24 +14,22 @@ body{
 }
 
 .wrapper{
-    padding: 10px 0px;
     background-color: #c4c7e2;
     margin: 0px auto;
     display: flex;
     flex-direction: row;
     max-width: 1920px;
-    height: 100vh;
+    height: fit-content;
     justify-content: space-evenly;
 }
 .bg{
+    position: relative;
     align-self:center;
-position: relative;
-    margin: 30px auto;
     width: 35%;
-    padding: 30px 20px;
     background: linear-gradient(#ffffff, #b3adec);
     box-shadow: -1px -1px 64px 0px rgba(0, 0, 0, 0.5);
     text-align: center;
+ 
 }
 
 h2{
@@ -56,7 +53,7 @@ hr{
     color: #37316ae6;
     text-align: center;
     position: absolute;
-    top: 13%;
+    top: 100px;
     left: 0;
     
 }
@@ -79,7 +76,8 @@ h3{
 
 .name{
     font-family: 'Nueva';
-    font-size: 4vw;;
+    font-size: 60px;
+    margin-top: 10px;
     margin-bottom: 20px;
     color: #37316ae6;
 }
@@ -93,7 +91,7 @@ h3{
 
 }
 .minimum{
-    margin: 2% auto;
+    margin: 10px auto;
   width: 80%;
 }
 span{
@@ -111,7 +109,7 @@ img{
 .container{
 display: flex;
 justify-content: space-evenly;
-margin-top: 2%
+margin-top: 10px
 
 }
 .footer{
@@ -144,6 +142,7 @@ margin-top: 2%
 .color{
     display: flex;
     justify-content: space-evenly;
+    margin-bottom: 30px;
 }
 .block_size{
     margin-top: 30px;
@@ -164,102 +163,90 @@ margin-top: 2%
 }
 
 
-@media (max-width: 1500px) { 
-    .wrapper{
-        width: 100%;
-        flex-direction: column;
-        
-
-
-        
+@media (max-width: 1620px) {
+   .bg h2{
+        font-size: 120px;
+        line-height: 120px;
     }
 
-    h2{
-        margin-top: 30vh;
-        font-size: 25vw;
-    }
     .slogan{
-        margin-top: 30vh;
-       font-size: 10vw;
+        top: 80px;
         
-
+        font-size: 50px;
+        line-height: 50px;
+    
+        
     }
 
-    hr{
-        margin-bottom: 10px;
-    }
-    .bg{
-        margin: 10px auto;
-       width:  90%;
+    .name{
+        
+        font-size: 40px;
+       
     }
 
- }
+}
+
+
+
+@media (max-width: 962px) {
+    .bg h2{
+         font-size: 80px;
+         line-height: 80px;
+     }
  
- @media (max-width: 1250px) { 
-    
-    h2{
-        margin-top: 15vh;
-        font-size: 25vw;
-    }
-    .slogan{
-        margin-top: 15vh;
-       font-size: 10vw;
+     .slogan{
+        top: 60px;
+         font-size: 30px;
+         line-height: 30px;
+     
+         
+     }
+ 
+     .name{
+         
+         font-size: 30px;
         
+     }
 
-    }
-   
-
- }
-
-
-@media (max-width: 600px) { 
-    
-    h2{
-        margin-top: 20vh;
-        font-size: 25vw;
-    }
-    .slogan{
-        margin-top: 20vh;
-       font-size: 10vw;
-        
-
-    }
-   
-
- }
-
- @media (max-width: 462px) { 
-    .slogan{
-        margin-top: 30vh;
-    }
-    h2{
-        margin-top: 30vh;
-    
-    }
-   
-    .container{
-
-    flex-direction: column;
-    }
-    .pigeon{
+     .pigeon{
         display: none;
+     }
+
+     .desc_love1{
+        font-size:40px;
+     }
+}
+
+@media (max-width: 900px) {
+
+    .wrapper{
+        flex-direction: column;
+        height: fit-content;
     }
 
-
- }
-
- @media (max-width: 350px) { 
-    
-    h2{
-        margin-top: 40vh;
-        font-size: 25vw;
+    .bg{
+        width: 70%;
     }
+
+    .bg h2{
+        font-size: 80px;
+        line-height: 80px;
+    }
+
     .slogan{
-        margin-top: 40vh;
-       font-size: 10vw;
+       top: 60px;
+        font-size: 30px;
+        line-height: 30px;
+    
         
-
     }
-   
 
- }
+}
+
+
+@media (max-width: 600px) {
+    .color{
+        flex-direction: column;
+        align-items: center;
+    }
+}
