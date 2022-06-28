@@ -1,259 +1,324 @@
-@import url('https://fonts.googleapis.com/css2?family=Bad+Script&family=Cormorant:wght@400;700&family=Herr+Von+Muellerhoff&display=swap');
-@font-face {
-    font-family: "Nueva";
-    src: url("font/Miama\ Nueva.ttf") 
-   }
+@import url(https://allfont.ru/allfont.css?fonts=courier-new);
 
-*{
+@font-face {
+    font-family: "monotypecorsiva";
+    src: url("fonts/monotypecorsiva.ttf");
+}
+
+@font-face {
+    font-family: "mistral";
+    src: url("fonts/7fonts.ru_mistral.ttf")
+}
+
+@font-face {
+    font-family: "segoescript";
+    src: url("fonts/segoescript.ttf");
+
+}
+
+@font-face {
+    font-family: "Courier New";
+    src: url("fonts/courier-new_[allfont.ru].ttf");
+
+}
+
+@font-face {
+    font-family: "centurygothic";
+    src: url("fonts/centurygothic.ttf");
+
+}
+
+
+
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
-body{
-    background-color: #c4c7e2;
+
+body {
+    height: 100vh;
+    background-image: linear-gradient(#fff, rgb(69 28 101 / 34%));
 }
 
-.wrapper{
-    background-color: #c4c7e2;
-    margin: 0px auto;
+.container {
+    height: 100%;
     display: flex;
-    flex-direction: row;
-    max-width: 1920px;
-    height: fit-content;
     justify-content: space-evenly;
+    align-items: center;
+
+
 }
-.bg{
-    position: relative;
-    align-self:center;
-    margin-top: 30px;
+
+
+.content {
+    box-shadow: 0px 0px 60px rgb(139, 164, 194);
+
+    width: 594px;
+    height: 858px;
+
+}
+
+
+.main {
+    font-family: 'monotypecorsiva';
+    font-size: 36px;
+    padding-top: 100px;
+    margin-left: 55px;
     margin-bottom: 30px;
-    
-    width: 35%;
-    background: linear-gradient(#ffffff, #b3adec);
-    box-shadow: -1px -1px 64px 0px rgba(0, 0, 0, 0.5);
-    text-align: center;
- 
+    font-weight: 100;
+    color: rgb(90 37 130 / 80%);
 }
 
-h2{
-   font-family: 'Cormorant', serif;
-   font-size: 180px;
-   color: #b3adec59;
-   line-height: 180px;
+.name {
+    font-family: 'segoescript', cursive;
+    font-size: 48px;
+    font-weight: 100;
+    margin-left: 110px;
+    margin-bottom: 30px;
+    color: rgb(90 37 130 / 80%);
 }
 
-hr{
-    margin: 0 auto;
-    width: 15%;
-    margin-top: 3%;
-    border-color:#b3adec59 ;
-}
-.slogan{
-    width: 100%;
-    font-family: 'Herr Von Muellerhoff', cursive;
-    font-size: 80px;
-    line-height: 80px;
-    color: #37316ae6;
-    text-align: center;
-    position: absolute;
-    top: 100px;
-    left: 0;
-    
-}
-h3{
-    margin-top: 30px;
-    width: 100%;
-    font-family: 'Herr Von Muellerhoff', cursive;
-    font-size: 40px;
-    line-height: 40px;
-    color: #37316ac1;
-
-}
-
-.expensive{
-    font-family: 'Cormorant', serif;
-    font-weight: 700;
-    font-size: 20px;
-
-}
-
-.name{
-    font-family: 'Nueva';
-    font-size: 60px;
-    margin-top: 10px;
-    margin-bottom: 20px;
-    color: #37316ae6;
+.name span {
+    margin-left: 70px;
 }
 
 .desc {
-    
-    font-family: 'Cormorant', serif;
-    font-weight: 400;
+    font-family: 'monotypecorsiva';
+    font-size: 22px;
+    margin-left: 25px;
+    margin-bottom: 60px;
+    line-height: 44px;
+    color: rgb(90 37 130 / 80%);
+}
+
+.desc span {
+    margin-left: 120px;
+}
+
+.date {
+    font-family: 'monotypecorsiva';
+    font-size: 30px;
+    text-align: center;
+    margin-bottom: 140px;
+    line-height: 60px;
+    letter-spacing: 10px;
+    color: rgb(90 37 130 / 80%);
+
+}
+
+.date span {
+    font-size: 60px;
+}
+
+.meeteng {
+    font-family: 'mistral';
     font-size: 20px;
-    color: #37316ae6;
-
-}
-.minimum{
-    margin: 10px auto;
-  width: 80%;
-}
-span{
-    font-size: 3vw;
-    margin-bottom: 20px;
-    color: #37316ae6;
+    text-align: end;
+    margin-right: 50px;
+    color: rgb(90 37 130 / 80%);
 }
 
-img{
-    width: 100px;
-    color: #37316ae6;
-    filter: alpha(Opacity=50);
-    opacity: 0.5; 
-}
-.container{
-display: flex;
-justify-content: space-evenly;
-margin-top: 10px
-
-}
-.footer{
-    margin-top:10px;
-    margin-bottom: 15px;
-}
-.foot{
-    margin-top:50px;
-    margin-bottom: 15px;
-}
-.desc_love{
-    display: block;
-
-    font-family: 'Nueva';
-    font-size: 40px;
-    margin-bottom: 20px;
-    color: #37316ae6;
-    text-align: start;
-}
-.desc_love1 {
-    display: block;
-    font-family: 'Nueva';
-    font-size:50px;
-    margin-bottom:40px;
-    color: #37316ae6;
-    margin-left: 20px;
-   
+.bg1 {
+    background: url(img/bg1.png) center/cover no-repeat;
 }
 
-.color{
-    display: flex;
-    justify-content: space-evenly;
-    margin-bottom: 30px;
+.bg2 {
+    background: url(img/bg2.png) center/cover no-repeat;
 }
-.block_size{
+
+
+.dress_code {
+    padding-top: 120px;
+    text-align: center;
+    margin-left: 170px;
+    font-family: 'segoescript';
+    font-size: 36px;
+    font-weight: 100;
+    color: rgb(90 37 130 / 80%);
+
+}
+
+.happy {
+    margin-left: 70px;
     margin-top: 30px;
-    width: 100px;
-    height: 100px;
-    border-radius: 50px;
-    box-shadow: 0px 0px 20px rgb(45, 46, 65);
-}
-.color_one{
-    background-color: rgba(19, 20, 84, 0.572);
+    font-family: 'Courier New';
+    font-size: 18px;
+    font-weight: 100;
+    color: rgb(90 37 130 / 80%);
+    line-height: 36px;
 }
 
-.color_two{
-    background-color: rgb(58, 58, 168);
-}
-.color_free{
-    background-color: rgb(57, 22, 87);
+.happy span {
+    margin-left: 60px;
+
 }
 
 
-@media (max-width: 1620px) {
-   .bg h2{
-        font-size: 120px;
-        line-height: 120px;
+.color_content {
+    display: flex;
+    width: 500px;
+    justify-content: space-around;
+    margin-left: 50px;
+    margin-top: 17px;
+}
+
+.color {
+    width: 35px;
+    height: 35px;
+    border-radius: 50%;
+}
+
+.color1 {
+    background-color: #172C49);
+}
+
+.color2 {
+    background-color: #406196;
+}
+
+.color3 {
+    background-color: #748DB5;
+}
+
+.color4 {
+    background-color: #9FC3E7;
+}
+
+.color5 {
+    background-color: #C3D8F5;
+}
+
+.color6 {
+    background-color: #5E5D7F;
+}
+
+.color7 {
+    background-color: #9988BE;
+}
+
+.color8 {
+    background-color: #B9AED8;
+}
+
+.color9 {
+    background-color: #C0A3CF;
+}
+
+.color10 {
+    background-color: #3A845F;
+}
+
+.color11{
+    background-color: #469788;
+}
+
+.color12 {
+    background-color: #A0C46C;
+}
+
+
+.present{
+    margin-top: 17px;
+    text-align: center;
+    font-family: 'segoescript';
+    font-size: 20px;
+    font-weight: 100;
+    color: rgb(90 37 130 / 80%);
+}
+
+.desc_present{
+    width: 500px;
+    font-family: 'centurygothic';
+    font-size: 18px;
+    color: rgb(90 37 130 / 80%);
+    text-align: left;
+    margin-left: 30px;
+    margin-top: 15px;
+}
+.icons{
+    display: flex;
+    text-align: center;
+
+
+
+}
+.icons .icons_left img, .icons .icons_right img{
+    margin-top: 50px;
+    width: 70px;
+    height: 70px;
+}
+.icons_right{
+    margin-left: 50px;
+}
+
+.icons_left{
+    margin-left: 10px;
+}
+
+.icons_desc{
+    font-family: 'mistral';
+    font-size: 12px;
+    text-align: center;
+    color: rgb(90 37 130 / 80%);
+
+}
+.desc_footer{
+    margin-top: 30px;
+    margin-left: 100px;
+    width: 400px;
+font-family: 'monotypecorsiva';
+    font-size: 20px;
+    margin-bottom: 140px;
+    letter-spacing: 5px;
+    color: rgb(90 37 130 / 80%);
+
+}
+
+.desc_footer span{
+    font-size: 25px;
+}
+
+@media (max-width: 1200px) {
+
+    body {
+        height: 1800px;
     }
 
-    .slogan{
-        top: 80px;
-        
-        font-size: 50px;
-        line-height: 50px;
-    
-        
+    .container {
+        display: block;
+        width: 594px;
+        margin: 0 auto;
+
     }
 
-    .name{
-        
-        font-size: 40px;
-       
+    .content {
+        margin-top: 30px;
     }
+
+
 
 }
 
 
+@media (max-width: 635px) {
 
-@media (max-width: 962px) {
-    .bg h2{
-         font-size: 80px;
-         line-height: 80px;
-     }
- 
-     .slogan{
-        top: 60px;
-         font-size: 30px;
-         line-height: 30px;
-     
-         
-     }
- 
-     .name{
-         
-         font-size: 30px;
-        
-     }
-
-     .pigeon{
-        display: none;
-     }
-
-     .desc_love1{
-        font-size:40px;
-     }
-}
-
-@media (max-width: 900px) {
-
-    .wrapper{
-        flex-direction: column;
+    body {
         height: fit-content;
+
     }
 
-    .bg{
-        width: 90%;
+    .container {
+        display: block;
+        width: fit-content;
+        padding: 0 30px
     }
 
-    .bg h2{
-        font-size: 80px;
-        line-height: 80px;
+    .content {
+        margin-top: 30px;
+        margin-bottom: 30px;
+
+
+
+
     }
-
-    .slogan{
-       top: 60px;
-        font-size: 30px;
-        line-height: 30px;
-    
-        
-    }
-
-}
-
-
-@media (max-width: 600px) {
-    .color{
-        flex-direction: column;
-        align-items: center;
-    }
-
-    span{
-font-size: 30px;
-    }
-}
